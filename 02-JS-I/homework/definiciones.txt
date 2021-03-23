@@ -1,0 +1,42 @@
+Variables: Las variables se utilizan para guardar valores dentro de ellas con el fin de poder utilizarlas
+           cuando sean necesarias, en javaScript no es necesario declarar que tipo de valor es el que vamos
+           a guardar en la variable. Se construyen con la siguiente estructura: var o const + nombre de la variable + = + valor almacenado en la variable.
+           Dependiendo de como sea construida la variable, el valor va a ser modificable
+           o fijo. Ej. var numero = 5; el valor 5 es almacenado en la variable numero y puede ser modificada.
+           Ejemplo de variable no modificable o constante: const Pi = 3.14; . Las variables se utilizan o se invocan por su nombre.
+
+Strings: Los strings son uno de los tipos de datos que pueden ser almacenados dentro de variables. Son bloques de
+         texto y se escriben entre comillas. Ej: var miequipo = 'San lorenzo'; . Los numeros tambien son cadenas
+         de texto si estan entre comillas.
+
+Funciones: Las funciones se utilizan para evitar la repeticion del codigo, pueden ser utilizadas una y otra vez.
+           Su funcionamiento consiste en calcular un valor de manera independiente al resto del programa.
+           La forma mas simple de escribir una funcion es escribiendo "function" espacio el nombre de la funcion
+           seguido de "()" y {}.
+           Las funciones pueden tener o no parametros, si los tiene se ubican dentro de los parentesis "()" . Los parametros son variables que son utilizadas dentro de la funcion, se pueden utilizar mas de un argumento y se lo separa con coma "," dentro de los parentesis. lo importante es que a estos parametros se les puede dar diferentes valores cada vez que se usa la funcion.
+
+           Return: La declaracion return se utiliza para que la funcion nos devuelva los datos que queremos, es imporante destacar que una vez que la funcion golpea una delclaracion de retorno la funcion no ejecuta
+           el codigo que sigue. Ej: la funcion suma: al ejecutarla nos va a devolver la suma de a + b.
+            function suma(a, b);{   
+              return a + b;
+            }
+
+Declaraciones if: El if se utliza para bifurcar acciones dependiendo de si la declaracion es verdadera o falsa.
+                  Si es verdadera se ejecuta una parte del codigo y si es falsa se ejecuta otra o se vuelve
+                  a testear otra declaracion si se trata de una estructura de if anidada. 
+                  Ej : 
+
+                  function cuantaplata(pesos){
+                      if (pesos > 1000){
+                          return "tengo mucha plata"
+                      else if (pesos > 500)
+                          return "tengo plata"
+                      else
+                          return "no tengo plata"    
+                      }
+                  }
+                     Dependiendo del valor que le de a la variable pesos, primero se verifica que el valor sea mayor a 1000, si esto es verdad (retorna true) se imprime "tengo mucha plata". Si no es verdadero pasa a la siguiente prueba si pesos es mayor a 500 imprime "tengo plata".
+                     Si ninguna de las anteriores afirmaciones son verdaderas se ejecuta el codigo que sigue al else "no tengo plata"
+
+Valores Booleanos: Estos valores solo pueden ser true or false. Estan basados en la logica que alimenta el codigo
+                   binario significa que solo tiene dos opciones activar o desactivar, verdadero o falso.
