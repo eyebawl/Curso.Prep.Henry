@@ -1,0 +1,18 @@
+for :  Cuando se quiere utilizar la repeticion de codigo el bucle for es muy util para ahorrar lineas de codigo. Tiene una sintaxis determinada, primero se escribe for luego una variable que contenga un valor.
+seguido de la variable una condicion que nos va a servir para que el bucle funcione, por cada repeticion el for verifica la veracidad de la condicion, cuando esta sea false el bucle finaliza.
+Para que la condicion sea false en algun momento la variable tiene que modificarse en cada bucle, para esto luego de la condicion se incrementa la variable con un operador por ejemplo i++ o i-- . Si no se modifica la variable se puede crear un bucle infinito.
+
+
+`&&`, `||`, `!` : Se trata de operadores logicos trabajan con dos operandos  y retornan un valor logico, osea true or false.
+
+&& and o y: Significa que si los dos operandos son true, si las dos expresiones son verdaderas entonces retorna true, si cualquiera de las dos son falsas retorna false porque (expresion1) Y (expresion2) tienen que ser verdaderas.
+
+|| or o: Similar al and pero si la (expresion1) o (expresion2) son true, retorna true. Solo se necesita que una de las expresiones sea true.
+
+! not: el operador not se utiliza para invertir el valor booleano de la expresion. Si la expresion es true va a ser false y si es false va a ser true.
+ej: a = a  es true. !(a = a) no es true.
+a = b es false pero !(a=b) es true.
+
+
+
+
