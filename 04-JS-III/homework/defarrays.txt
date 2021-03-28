@@ -1,0 +1,10 @@
+Arrays: Son contenedores de almacenamiento para colecciones de datos. Para formar los arrays se necesita declarar 
+        una variable + [], dentro se pueden agregar strings, numeros o valolers booleanos. Deben estar separados por una coma y se puede acceder a ellos a travez de su sub indice.
+        El numero de sub indice empieza desde 0 y se cuenta de izquierda a derecha.
+        Los Arrays tienen un metodo llamado .lenght que retorna el numero de elementos que tiene dentro.
+        Para acceder a uno de sus elementos se escribe el nombre de la variable mas el sub indice entre "[]", ej:
+        lista[0] o lista[4] etc.
+        Tambien podemos asignar valores a cualquier indice del array. ej. lista[0] = 450; lista[1] = "Jose".
+        Otros metodos utilizados en arrays son .push y .pop: 
+        .push agrega un elemento al array agregando en 1 su longitud y ocupando ese espacio.
+        .pop elimina el ultimo elemento del array disminuyendo su longitud en 1 y retorna el elemento eliminado.
