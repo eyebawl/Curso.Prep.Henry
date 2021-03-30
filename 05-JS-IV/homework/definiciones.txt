@@ -1,0 +1,43 @@
+Objetos: Los objetos son contenedores de datos como los arrays, pero contienen mucha 
+         informacion sobre una sola cosa. En vez de indices como los arrays los objetos tienen pares llamados clave:valor o key:value, las claves son unicas en un objeto, pueden tenener el mismo valor pero no el mismo nombre y los valores pueden ser cualquier tipo de dato incluso otro objeto.
+         Se accede a sus valores llamando al nombre del objeto y a la clave.
+
+         Se puede acceder de dos formas: Notacion de puntos: objeto.clave; nos va a retornar el valor de la clave.
+
+
+Notación de puntos vs notación de corchetes
+
+         Notacion de corchetes: objeto["clave"]; Se usa generalmente con variables
+         objeto[variable]; variable tendria el valor de alguna de las claves y retornaria el valor de esa clave.
+
+         Se puede asignar el valor de las claves cuando se crea el objeto escribiendo el nombre de la clave + ":" + el valor + ",".
+         Tambien se pueden asignar valores con notacion de puntos y de corchetes:
+
+         objeto.clave = valor;
+         objeto["clave"] = valor;
+         objeto[variable] = valor;
+
+         Para eliminar propiedades utilizamos la palabra delete.
+
+         delete objeto.clave;  elimina la propiedad, la clave + el valor. 
+
+
+Propiedades : Las Propiedades de los objetos son cada uno de los pares clave:valor
+              que tienen dentro y son las que determinan el funcionamiento del objeto. Pueden ser asignadas a los objetos de las formas explicadas arriba.
+
+Métodos : Las propiedades de los objetos pueden tener como valor una funcion, estas 
+          funciones dentro de objetos se denominan Métodos.
+          Se puede llamar a un Método de la siguiente manera: objeto.clave();
+
+Bucle for…in : Para iterar entre cada propiedad dentro de un objeto se utiliza
+               el bucle for .. in , el cual recorre todas propiedades y finaliza cuando se hayan recorrido todas.
+               La sintaxis es la siguiente:
+
+               for (variable in objeto){}
+                   //codigo
+
+
+
+
+
+
